@@ -7,11 +7,28 @@
 </head>
 <body>
     
+    <h2 id="title">Classes: HTML List Binding</h2>
+
+    <ul id="myList">
+        <!-- To be filled Javascript -->
+
+         <!-- <li>Item #1</li> -->
+        <!-- <li>Item #2</li>  -->
+    </ul>
+
     <!-- <script src="01_The_Basics_JavaScript_OOP_Tutorial.js"></script> -->
     <!-- <script src="02_Getters_and_Setters.js"></script> -->
     <!-- <script src="03_Static_Methods.js"></script> -->
     <!-- <script src="04_Inheritance_and_Extends.js"></script> -->
-    <script src="05_Polymorphism.js"></script>
+    <!-- <script src="05_Polymorphism.js"></script> -->
+    <script src="06_Creating_a_HTML_Binding.js"></script>
+
+
+    <script type="text/javascript">
+        const myList = document.getElementById('myList');
+
+        const listBinding = new ListBinding(myList);
+    </script>
 
 </body>
 </html>
